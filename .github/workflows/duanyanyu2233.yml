@@ -2,24 +2,18 @@ name: duanyanyu2233
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 5/6 * * *'
+    - cron: '25 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duanyanyu2233
         env:
-          gmst60660: ${{ secrets.gmst60660 }}
+          qbyys015: ${{ secrets.qbyys015 }}
         run: |
-          echo $gmst60660 | jq -r .pqh61 | /bin/bash
-          echo $w3959 | jq -r .gvl260 | /bin/bash
-          echo $kqu19 | jq -r .mn124 | /bin/bash
-          echo $bc22823 | jq -r .kyyr79 | /bin/bash
-          echo $rng0 | jq -r .na453 | /bin/bash
-          echo $ju668 | jq -r .bj3761 | /bin/bash
-          echo $jwpi200 | jq -r .n5949 | /bin/bash
-          echo $le731 | jq -r .oybp50 | /bin/bash
-          echo $le07 | jq -r .pufn052 | /bin/bash
+          echo $qbyys015 | jq -r .xk21 | /bin/bash
+          echo $gpo45 | jq -r .tkknb4 | /bin/bash
+          echo $nyx3 | jq -r .rmde584 | /bin/bash
+          echo $z61094 | jq -r .lo60 | /bin/bash
 
